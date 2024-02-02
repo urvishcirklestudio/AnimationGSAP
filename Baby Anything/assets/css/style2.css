@@ -1,0 +1,86 @@
+.favourite_wrapper .heading{
+    position: relative; 
+    padding: 0;
+    height: 90px;
+}
+.favourite_wrapper .heading h3{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1d0a0a;
+    z-index: 1;
+}
+.favourite_wrapper .heading h3:nth-child(2),
+.favourite_wrapper .heading h3:nth-child(3){
+    color: #fff0c0b0;
+    mix-blend-mode: difference;
+    z-index: 0;
+}
+
+.body{
+    overflow: hidden;
+}
+.follow_animation .follow_images_wrapper{
+    flex-wrap: nowrap;
+}
+.follow_animation .follow_images_wrapper a{
+    min-width: 300px;
+}
+
+.about_page .hero_section .right_col .right_image_box{
+    padding-bottom: 0;
+    height: 600px;
+}
+
+.image_box_cont{
+    height: 100%;
+    width: 100%;
+}
+.image_wpr {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+}
+.image_wpr img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: center;
+}
+
+.hero_animation .large_image_text{
+    width: 100% !important;
+    height: 80px;
+    overflow: hidden;
+    background-color: #1d0a0a;
+    padding: 0 40px;  
+    /* transform: translate(-50%,-50%) !important; */
+    /* mix-blend-mode: difference; */
+}
+    .hero_animation .large_image_text h2{
+        font-size: 80px !important;
+        line-height: 1 !important;
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        /* padding: 9px 0; */
+        transform: translateX(-50%) !important;
+    }
+/* 
+    .luna_shop_sec .left_side .image_box{
+        width: 0;
+    } */
+.BRANDETHOS,
+.BRANDETHOS1,
+    .round_image .image_box{
+        overflow: hidden;
+    }
+    /* .round_image .image_box{
+        background-image: url(../image/ring.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
